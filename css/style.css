@@ -10,21 +10,33 @@
 }
 
 input {
+    font-size: 25px;
     height: 50px;
-    width: 535px;
+    width: 570px;
     align-content: center;
 }
 
 .passwordInput {
-    background: url(../img/passLogo.png) left no-repeat;
+    /*background: url(../img/passLogo.png) left no-repeat;*/
     border: red solid 2px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+}
+
+.lineOr {
+    font-size: 25px;
+}
+
+.inputForms p {
+    font-size: 25px;
+    color: red;
     margin: 15px;
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
     margin-bottom: 35px;
 }
@@ -57,6 +69,18 @@ body {
     text-align: center;
 }
 
+.loginMail {
+    align-items: center;
+    background: darkgreen;
+    border: solid darkgreen;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
 .lineOr p {
     text-align: center;
 }
@@ -73,11 +97,17 @@ body {
     margin-right: 10px;
 }
 
+.mailLogo {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
 .loginInput {
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    margin: 15px;
+    margin-top: 15px
 }
 
