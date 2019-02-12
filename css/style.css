@@ -1,3 +1,7 @@
+body {
+    background: darkgray;
+}
+
 .login {
     background: whitesmoke;
     border: 50px solid whitesmoke;
@@ -9,14 +13,15 @@
     margin: 160px auto auto;
 }
 
-menu .menu {
+.menu {
+    max-height: 1440px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    background: white;
     align-items: center;
     justify-content: center;
+    background: red;
 }
-
 
 input {
     font-size: 25px;
@@ -48,10 +53,6 @@ h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 36px;
-}
-
-body {
-    background: darkgray;
 }
 
 .vkLogin {
@@ -121,16 +122,11 @@ body {
 }
 
 .signupForm {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 450px;
     width: auto;
-    max-height: 350px;
+    max-width: 570px;
     height: auto;
-    border: 2px solid black;
-    border-radius: 5px;
-    justify-content: center;
+    max-height: 950px;
+    margin: 160px auto auto;
 }
 
 .loginInputMenu {
@@ -149,4 +145,12 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 16px;
+}
+
+.leftSide {
+    height: 100%;
+    max-width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: fill;
 }
