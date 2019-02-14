@@ -305,6 +305,7 @@ hr {
     border-radius: 4px;
     margin: 8px;
     width: 80%;
+    /*padding: 0 5px;*/
 }
 
 .registrationSignUp {
@@ -326,4 +327,33 @@ hr {
 
 .FBSignUo:visited {
     color: white;
+}
+
+.updateProfile {
+    background-color: lightgray;
+    font-family: Helvetica, serif;;
+}
+
+.updateProfilePlace {
+    background: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 3px;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 950px;
+    margin: 160px auto auto;
+}
+
+.updateH1 {
+    text-align: left;
+    margin: 15px auto auto 15px; /*top right btm left*/
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.imgUpdate {
+    float: right;
+    margin-right: 16px;
+    height: 25px;
 }
