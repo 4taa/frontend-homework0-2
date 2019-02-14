@@ -1,9 +1,11 @@
 .loginBody {
     background: darkgray;
+    font-family: Helvetica, serif;
 }
 
 .profileBody {
     background: white;
+    font-family: Helvetica, serif;
 }
 
 .login {
@@ -50,7 +52,12 @@ input {
 .inputForms {
     font-size: 25px;
     color: red;
-    margin: 16px;
+    margin-bottom: 16px;
+    /*margin: 16px;*/
+}
+
+.inputFormsText {
+    margin-top: 16px;
 }
 
 h1 {
@@ -160,20 +167,87 @@ h1 {
 }
 
 .profile {
-    background: yellow;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
     width: auto;
-    max-width: 570px;
+    max-width: 450px;
+    /*min-height: 600px;*/
     height: auto;
-    max-height: 950px;
-    margin: 160px auto auto;
+    margin: 16px auto auto;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+    /*margin: 8px;*/
+    margin: 24px 32px 8px 32px;
 }
 
 .names {
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.globalInfo {
-    font-size: 25px;
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.localInfoP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.profileH1 {
+    margin: 32px 12px 32px 32px;
+    text-align: left;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid lightgray;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.buttonsProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.changeInfo {
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+    background: darkgreen;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 16px;
+}
+
+.deleteProfile {
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    background: lightblue;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 16px;
+}
+
+.info {
+    min-height: 60%;
 }
