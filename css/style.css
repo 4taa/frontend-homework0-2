@@ -1,5 +1,10 @@
 .loginBody {
-    background: darkgray;
+    background: #008079;
+    font-family: Helvetica, serif;
+}
+
+.menuBody {
+    height: 100%;
     font-family: Helvetica, serif;
 }
 
@@ -26,13 +31,12 @@
 }
 
 .menu {
-    max-height: 1440px;
-    height: auto;
+    min-height: 820px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    background: red;
+    background: white;
 }
 
 input {
@@ -99,8 +103,8 @@ h1 {
 
 .loginMail {
     align-items: center;
-    background: darkgreen;
-    border: solid darkgreen;
+    background: #008079;
+    border: solid #008079;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -145,7 +149,7 @@ h1 {
     max-width: 570px;
     height: auto;
     max-height: 950px;
-    margin: 160px auto auto;
+    margin: 260px auto 0px 260px;
 }
 
 .loginInputMenu {
@@ -162,16 +166,20 @@ h1 {
     border: red solid 2px;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     margin-top: 16px;
 }
 
 .leftSide {
-    height: 100%;
-    max-width: 350px;
-    border: 2px solid black;
-    border-radius: 10px;
+    background: white;
+    overflow: auto;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     float: left;
+    min-height: 100%;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 8px;
 }
 
 .profile {
@@ -224,7 +232,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid gray;
     margin: 1em 0;
     padding: 0;
 }
@@ -247,14 +255,14 @@ hr {
 }
 
 .changeInfo {
-    border: 2px solid darkgreen;
+    border: 2px solid #008079;
     border-radius: 8px;
     font-size: 15px;
     width: 200px;
     height: 50px;
     margin: 16px;
     align-items: center;
-    background: darkgreen;
+    background: #008079;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -311,9 +319,9 @@ hr {
 }
 
 .registrationSignUp {
-    border: 2px darkgreen solid;
+    border: 2px #008079 solid;
     border-radius: 4px;
-    background-color: darkgreen;
+    background-color: #008079;
     margin-top: 12px;
     height: 50px;
     width: 60%;
@@ -404,10 +412,10 @@ hr {
 }
 
 .update {
-    background-color: darkgreen;
+    background-color: #008079;
     height: 40px;
     width: 35%;
-    border: darkgreen 1px solid;
+    border: #008079 1px solid;
     border-radius: 5px;
     margin-right: 8px;
 }
@@ -418,5 +426,17 @@ hr {
     width: 35%;
     border: gray 1px solid;
     border-radius: 5px;
+    margin-right: 8px;
+}
+
+.mailHeader {
+    background: #008079;
+    margin: 20px 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.menuHeaderImg {
     margin-right: 8px;
 }
