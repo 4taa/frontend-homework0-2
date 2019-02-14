@@ -13,7 +13,7 @@
     border: 50px solid whitesmoke;
     border-radius: 15px;
     width: auto;
-    max-width: 570px;
+    max-width: 350px;
     height: auto;
     max-height: 950px;
     margin: 160px auto auto;
@@ -228,14 +228,28 @@ hr {
     justify-content: space-around;
 }
 
+.userEditImg {
+    width: auto;
+    margin-right: 4px;
+}
+
+.deleteProfileImg {
+    width: auto;
+    margin-right: 4px;
+}
+
 .changeInfo {
     border: 2px solid darkgreen;
     border-radius: 8px;
-    background: darkgreen;
     font-size: 15px;
     width: 200px;
     height: 50px;
     margin: 16px;
+    align-items: center;
+    background: darkgreen;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .deleteProfile {
@@ -246,6 +260,10 @@ hr {
     width: 200px;
     height: 50px;
     margin: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .info {
