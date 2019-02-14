@@ -8,6 +8,14 @@
     font-family: Helvetica, serif;
 }
 
+.signUp {
+    display: flex;
+    align-content: center;
+    background: #0e0e0e url(../img/hero-lg.jpg) no-repeat;
+    min-height: 455px;
+    min-width: 1013px;
+}
+
 .login {
     background: whitesmoke;
     border: 50px solid whitesmoke;
@@ -170,7 +178,7 @@ h1 {
     border: 1px solid lightgrey;
     border-radius: 5px;
     width: auto;
-    max-width: 450px;
+    max-width: 550px;
     /*min-height: 600px;*/
     height: auto;
     margin: 16px auto auto;
@@ -268,4 +276,8 @@ hr {
 
 .info {
     min-height: 60%;
+}
+
+.signUpPage {
+
 }
