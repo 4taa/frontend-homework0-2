@@ -1,5 +1,9 @@
-body {
+.loginBody {
     background: darkgray;
+}
+
+.profileBody {
+    background: white;
 }
 
 .login {
@@ -43,7 +47,7 @@ input {
     font-size: 25px;
 }
 
-.inputForms p {
+.inputForms {
     font-size: 25px;
     color: red;
     margin: 16px;
@@ -91,7 +95,7 @@ h1 {
     text-align: center;
 }
 
-.lineOr p {
+.lineOr {
     text-align: center;
 }
 
@@ -153,4 +157,23 @@ h1 {
     border: 2px solid black;
     border-radius: 10px;
     margin-left: fill;
+}
+
+.profile {
+    background: yellow;
+    border: 1px solid black;
+    width: auto;
+    max-width: 570px;
+    height: auto;
+    max-height: 950px;
+    margin: 160px auto auto;
+}
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.globalInfo {
+    font-size: 25px;
 }
