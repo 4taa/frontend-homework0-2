@@ -153,8 +153,8 @@ h1 {
 }
 
 .loginInputMenu {
-    width: auto;
-    border: 2px solid black;
+    width: 70%;
+    border: 1px solid lightgray;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -162,8 +162,8 @@ h1 {
 }
 
 .passwordInputMenu {
-    width: auto;
-    border: red solid 2px;
+    width: 70%;
+    border: lightgray solid 1px;
     border-radius: 5px;
     display: flex;
     /*justify-content: center;*/
@@ -431,7 +431,8 @@ hr {
 
 .mailHeader {
     background: #008079;
-    margin: 20px 12px 0;
+    /*margin: 20px 12px 0;*/
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -439,4 +440,86 @@ hr {
 
 .menuHeaderImg {
     margin-right: 8px;
+}
+
+.buttonsMenu {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    /*width: 40vh;*/
+    width: 93%;
+    margin-left: 12px;
+}
+
+.butMenuActive {
+    background: #008079;
+    border: #008079 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    border-radius: 2px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.butMenuReg {
+    background: lightgrey;
+    border: lightgray 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.butMenuAuthor {
+    background: lightgrey;
+    border: lightgray 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.butMenuPlay {
+    background: lightgrey;
+    border: lightgray 1px solid;
+    border-radius: 2px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.authText {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.auth {
+    background-color: #008079;
+    border: 1px solid #008079;
+    border-radius: 6px;
+    margin-top: 16px;
+    height: 9%;
+    width: 40%;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+.menuHref {
+    text-decoration: none;
+}
+
+.menuHref:visited {
+    color: blue;
 }
