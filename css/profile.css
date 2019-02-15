@@ -1,0 +1,88 @@
+.buttonsProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.changeInfo {
+    border: 2px solid #008079;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 16px;
+    align-items: center;
+    background: #008079;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.deleteProfile {
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    background: lightblue;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.deleteProfileImg {
+    width: auto;
+    margin-right: 4px;
+}
+
+.info {
+    min-height: 60%;
+}
+
+.localInfoP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.names {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: auto;
+    max-width: 550px;
+    /*min-height: 600px;*/
+    height: auto;
+    margin: 16px auto auto;
+}
+
+.profileBody {
+    background: white;
+    font-family: Helvetica, serif;
+}
+
+.profileH1 {
+    margin: 32px 12px 32px 32px;
+    text-align: left;
+}
+
+.userEditImg {
+    width: auto;
+    margin-right: 4px;
+}

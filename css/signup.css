@@ -1,0 +1,58 @@
+.FBSignUo {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.FBSignUo:visited {
+    color: white;
+}
+
+.signUp {
+    background: #0e0e0e url(../img/hero-lg.jpg) no-repeat;
+    background-size: 130%;
+    font-family: Helvetica, serif;
+}
+
+.signUpH1 {
+    display: flex;
+    font-size: 54px;
+    justify-content: space-evenly;
+    max-width: 1500px;
+}
+
+.signUpInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    margin: 60px auto auto;
+}
+
+.signUpInputForm {
+    border: 2px white solid;
+    border-radius: 4px;
+    margin: 8px;
+    width: 80%;
+    /*padding: 0 5px;*/
+}
+
+.signUpPage {
+    color: white;
+    width: auto;
+    max-width: 1300px;
+    height: auto;
+    max-height: 950px;
+    margin: 220px auto auto;
+}
+
+.registrationSignUp {
+    border: 2px #008079 solid;
+    border-radius: 4px;
+    background-color: #008079;
+    margin-top: 12px;
+    height: 50px;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}

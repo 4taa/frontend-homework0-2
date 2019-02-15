@@ -1,0 +1,89 @@
+.buttonsUpdate {
+    display: flex;
+    flex-direction: row;
+}
+
+.cancel {
+    background-color: lightgray;
+    height: 40px;
+    width: 35%;
+    border: gray 1px solid;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.customSel {
+    height: 35px;
+}
+
+.customSelect {
+    margin-top: 8px;
+    margin-left: 16px;
+}
+
+.Emailinput {
+    width: 90%;
+    border: red 1px solid;
+    border-radius: 5px;
+    height: 40%;
+}
+
+.Emailupdate, .updateH2, .Emailinput, .buttonsUpdate {
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.updateProfileMain {
+    display: flex;
+    flex-direction: column;
+}
+
+.updateProfile {
+    background-color: lightgray;
+    font-family: Helvetica, serif;;
+}
+
+.updateProfilePlace {
+    background: whitesmoke;
+    border: 5px solid whitesmoke;
+    border-radius: 3px;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 950px;
+    margin: 160px auto auto;
+}
+
+.updateH1 {
+    text-align: left;
+    margin: 16px auto auto 16px; /*top right btm left*/
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.imgUpdate {
+    float: right;
+    margin-right: 16px;
+    height: 25px;
+}
+
+.phoneNumber {
+    /*max-width: 250px;*/
+    width: 72%;
+    height: 40%;
+}
+
+.update {
+    background-color: #008079;
+    height: 40px;
+    width: 35%;
+    border: #008079 1px solid;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.wrongEmail {
+    margin-top: 8px;
+    margin-left: 16px;
+    color: red;
+}
